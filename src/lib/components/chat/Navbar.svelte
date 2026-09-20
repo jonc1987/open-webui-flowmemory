@@ -84,7 +84,10 @@
 					{/if}
 				</div>
 
-				<div class="self-start flex flex-none items-center text-gray-600 dark:text-gray-400">
+				<div class="self-start flex flex-none items-center gap-2 text-gray-600 dark:text-gray-400">
+					<div class="hidden sm:flex items-center mr-1 select-none" aria-label="FlowMemory">
+						<span class="font-primary font-black text-[19px] tracking-[-0.06em] text-[#071a3d] dark:text-white">Flow</span><span class="font-primary font-black text-[19px] tracking-[-0.06em] text-[#176bff]">Memory</span>
+					</div>
 					<!-- <div class="md:hidden flex self-center w-[1px] h-5 mx-2 bg-gray-300 dark:bg-stone-700" /> -->
 					{#if shareEnabled && chat && (chat.id || $temporaryChatEnabled)}
 						<Menu
@@ -167,12 +170,7 @@
 								aria-label="User Menu"
 							>
 								<div class=" self-center">
-									<img
-										src={$user?.profile_image_url}
-										class="size-6 object-cover rounded-full"
-										alt="User profile"
-										draggable="false"
-									/>
+									<div class="size-6 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900" aria-label="Profile"></div>
 								</div>
 							</button>
 						</UserMenu>
