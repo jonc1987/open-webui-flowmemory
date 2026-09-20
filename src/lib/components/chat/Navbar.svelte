@@ -170,7 +170,12 @@
 								aria-label="User Menu"
 							>
 								<div class=" self-center">
-									<div class="size-6 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900" aria-label="Profile"></div>
+									<div class="size-6 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 flex items-center justify-center overflow-hidden" aria-label="FlowMemory">
+										<svg class="w-[82%] h-[82%]" viewBox="0 0 100 60" aria-hidden="true">
+											<path d="M8 10H42V20H20V30H40V40H20V52H8Z" fill="#071A3D"/>
+											<path d="M42 10H56L70 26L84 10H94V52H82V28L70 42L54 24V52H42Z" fill="#176BFF"/>
+										</svg>
+									</div>
 								</div>
 							</button>
 						</UserMenu>
