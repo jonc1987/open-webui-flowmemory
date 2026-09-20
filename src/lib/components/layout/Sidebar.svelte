@@ -526,12 +526,7 @@
 			>
 				<div class="flex items-center">
 					<div class="self-center mx-1.5">
-						<img
-							crossorigin="anonymous"
-							src="{WEBUI_BASE_URL}/static/favicon.png"
-							class=" size-5 -translate-x-1.5 rounded-full"
-							alt="logo"
-						/>
+						<div class="size-5 -translate-x-1.5 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900" aria-label="FlowMemory"></div>
 					</div>
 					<div class=" self-center font-medium text-sm text-gray-850 dark:text-white font-primary">
 						{$i18n.t('New Chat')}
