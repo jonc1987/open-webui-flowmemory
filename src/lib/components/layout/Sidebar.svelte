@@ -526,7 +526,10 @@
 			>
 				<div class="flex items-center">
 					<div class="self-center mx-1.5">
-						<div class="size-5 -translate-x-1.5 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900" aria-label="FlowMemory"></div>
+						<svg class="size-5 -translate-x-1.5" viewBox="0 0 100 60" aria-label="FlowMemory logo" role="img">
+							<path d="M8 10H42V20H20V30H40V40H20V52H8Z" fill="#071A3D"/>
+							<path d="M42 10H56L70 26L84 10H94V52H82V28L70 42L54 24V52H42Z" fill="#176BFF"/>
+						</svg>
 					</div>
 					<div class=" self-center font-medium text-sm text-gray-850 dark:text-white font-primary">
 						{$i18n.t('New Chat')}
